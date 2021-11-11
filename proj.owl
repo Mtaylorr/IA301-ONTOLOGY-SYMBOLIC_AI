@@ -1,0 +1,726 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasAgeGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasAgeGroup">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasChronicDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasChronicDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasGender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Gender"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasJob -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasJob">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Job"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasPreferredVaccin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasPreferredVaccin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasVaccinStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#hasVaccinStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#VaccinProgress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#isFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#isFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Region"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#isVaccinatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#isVaccinatedWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#isWillingToVaccinate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#isWillingToVaccinate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#WillingnessToVaccinate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AGAINST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AGAINST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#WillingnessToVaccinate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FOR"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#NEUTRAL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AstraZeneca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AstraZeneca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CKD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CKD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CLiverD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CLiverD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Cancer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Cancer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#ClungD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#ClungD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Elderly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Elderly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FOR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FOR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#WillingnessToVaccinate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#NEUTRAL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Gender"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#VaccinProgress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#HIV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#HIV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Job -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Job"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Juvenile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Juvenile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Kid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Kid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalWorker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalWorker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Job"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Moderna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Moderna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#NEUTRAL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#NEUTRAL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#WillingnessToVaccinate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#VaccinProgress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Pfizer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Pfizer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Teenager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Teenager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AgeGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#VaccinProgress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#VaccinProgress"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#WillingnessToVaccinate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#WillingnessToVaccinate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#johnson_and_johnson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#johnson_and_johnson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#VaccinProgress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#sputnik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#sputnik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Adult -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Adult">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Adult"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Against -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Against">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AGAINST"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AstraZeneca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#AstraZeneca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Vaccin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CKD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CKD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CKD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CLiverD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CLiverD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#CLiverD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Cancer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Cancer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Cancer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#ClungD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#ClungD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#ClungD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Diabetes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Diabetes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Elderly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Elderly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Elderly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Female -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Female">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Female"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#For -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#For">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FOR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#HIV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#HIV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#HIV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Johnson_and_johnson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Johnson_and_johnson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#johnson_and_johnson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Juvenile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Juvenile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Juvenile"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Kid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Kid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Kid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Lisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Lisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+        <hasAgeGroup rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Elderly"/>
+        <hasGender rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Female"/>
+        <hasVaccinStatus rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated"/>
+        <isFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red"/>
+        <isVaccinatedWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Moderna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Marwen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Marwen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+        <hasAgeGroup rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Adult"/>
+        <hasGender rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Male"/>
+        <hasJob rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalWorker"/>
+        <hasVaccinStatus rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated"/>
+        <isFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange"/>
+        <isVaccinatedWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Pfizer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalWorker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalWorker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#MedicalWorker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Moderna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Moderna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Moderna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Mouin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Mouin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Person"/>
+        <hasAgeGroup rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Teenager"/>
+        <hasJob rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other"/>
+        <hasVaccinStatus rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated"/>
+        <isFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green"/>
+        <isWillingToVaccinate rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Against"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Neutral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Neutral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#NEUTRAL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Other"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Pfizer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Pfizer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Pfizer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Teenager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Teenager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Teenager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#sputnik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#sputnik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#sputnik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#FullyVaccinated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#PartiallyVaccinated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#notVaccinated"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Green"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Orange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2021/9/untitled-ontology-7#Red"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
